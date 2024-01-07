@@ -32,7 +32,9 @@ print(response.status_code)
 country_data_list = response.json()
 random_country_index = random.randint(0, len(country_data_list) - 1)
 country_data = country_data_list[random_country_index]
-# pp(country_data)
+
+# pp(country_data)-- to inspect how the data from the API looks
+
 country_name = country_data["name"]
 country_code = country_data["cca2"]
 
@@ -46,9 +48,16 @@ continent= country_data["continents"]
 top_headlines = newsapi.get_top_headlines(country_code)
 #pp(top_headlines)-- checking if the news api is working 
 
-question_1 = f"What is the capital of " + country_name +"?"
-question_2 = "What is the currency of " + country_name + "?"
-question_3 = "In which continent is " + country_name + " located?"
+if 'articles' in top_headlines:
+    top_articles = top_headlines['articles'][:3]  # Selecting the first 3 articles
+    for index, article in enumerate(top_articles, start=1):
+        print(f"Headline {index}: {article['title']}")
+else:
+    print("No articles found.")
+
+question_1 = f"What is the capital of {country_name}?"
+question_2 = f"What is the currency of {country_name}?"
+question_3 = f"In which continent is {country_name} located?"
 questions = [
     {"question": question_1, "correct_answer": capital_city},
     {"question": question_2, "correct_answer": currency},
