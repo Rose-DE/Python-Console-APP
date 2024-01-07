@@ -1,15 +1,14 @@
 #Created the environment using Gitbash to install the required libraries
 #pip install requests #for making API requests
-#pip install googlemaps #for Googlemaps integration
 #pip install newsapi-python #for News API
 #pip install blessed --for optional text based ui elements
 
 # import the necessary libraries
 import requests
-import googlemaps
 from newsapi import NewsApiClient
 from blessed import Terminal
 import random
+import webbrowser
 from pprint import pprint as pp
 
 #API keys
