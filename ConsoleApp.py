@@ -22,7 +22,7 @@ print(term.center("Explore the world through trivia and news!"))
 
  
 # #user chooses their difficulty level
-difficulty_level = input(term.center("Choose your difficulty level (easy, medium, hard): ")) 
+difficulty_level = input(term.center("Choose your difficulty level ('easy', 'medium', 'hard'): ")) 
 
 #selecting a random country using Rest country API
 response = requests.get("https://restcountries.com/v3.1/all?random=true")
