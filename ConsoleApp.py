@@ -13,7 +13,6 @@ from pprint import pprint as pp
 
 #API keys
 newsapi = NewsApiClient(api_key="86a9177772fd4216a64a3089ee4e0dd6") 
-gmaps = googlemaps.Client(key="AIzaSyCf9T5oHNKjPyl_TRDM4ec5u3Z3SBaxNWU")  #get your API key from Google Cloud Console
 
 # user interaction
 term = Terminal()
