@@ -80,12 +80,12 @@ for question in questions:
     user_answer = input("Your answer: ")
 
     # Check for the correct answer and update score
-    if user_answer.lower() == str(question["correct_answer"]).lower():
+    if any(user_answer.lower() in str(answer).lower() for answer in question["correct_answer"]):
         print("Correct!")
         score += 1
     else:
-        print(f"Wrong! The correct answer is {question['correct_answer']}")
-
+        correct_answers_str = ', '.join(map(str, question['correct_answer']))
+        print(f"Wrong! The correct answer is {correct_answers_str}")
 # Display the final score
 print(f"Your final score: {score}/{len(questions)}")
 
