@@ -89,6 +89,15 @@ for question in questions:
 # Display the final score
 print(f"Your final score: {score}/{len(questions)}")
 
+if score == 3:
+   print("Congratulations, you've earned the 'Travel Expert' badge!")
+elif score == 0:
+  print ("oops!! get back on the road")
+else:
+    print("Congratulations, you've earned the 'Travel' badge!")
+
+webbrowser.open("https://twitter.com/intent/tweet?text=I just scored " + str(score) + " on the World Travel News Quiz! #wtf #group10 #travelquiz")
+
 
 
 
