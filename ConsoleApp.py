@@ -52,6 +52,8 @@ if 'articles' in top_headlines:
     top_articles = top_headlines['articles'][:3]  # Selecting the first 3 articles
     for index, article in enumerate(top_articles, start=1):
         print(f"Headline {index}: {article['title']}")
+        print(f"   Link: {article['url']}")
+        print("------") # helps seperate and distinguish between the different articles
 else:
     print("No articles found.")
 
