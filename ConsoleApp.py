@@ -35,7 +35,7 @@ country_data = country_data_list[random_country_index]
 
 # pp(country_data)-- to inspect how the data from the API looks
 
-country_name = country_data["name"]
+country_name = str(country_data["name"])
 country_code = country_data["cca2"]
 
 #Extracting the questions answers
