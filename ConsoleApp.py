@@ -28,14 +28,14 @@ difficulty_level = input(term.center("Choose your difficulty level (easy, medium
 
 #selecting a random country using Rest country API
 response = requests.get("https://restcountries.com/v3.1/all?random=true")
-print(response.status_code)
+#print(response.status_code)
 country_data_list = response.json()
 random_country_index = random.randint(0, len(country_data_list) - 1)
 country_data = country_data_list[random_country_index]
 
 # pp(country_data)-- to inspect how the data from the API looks
 
-country_name = str(country_data["name"])
+country_name = str(country_data["name"]["common"])
 country_code = country_data["cca2"]
 
 #Extracting the questions answers
