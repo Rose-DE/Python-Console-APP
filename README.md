@@ -1,8 +1,9 @@
-#**World Travel News Quiz**
-##****Description
+**World Travel News Quiz**
+
+**Description**
 The World Travel News Quiz is an interactive Python-based quiz game that immerses users in exploring different countries through trivia and news headlines. This engaging game utilizes REST APIs to fetch random country data from Restcountries API. It displays the top three news headlines using the News API and  presents three questions related to the randomly chosen country and. Users answer the questions and receive scores based on their answers.
 
-###******Features**
+**Features**
 •	Allows users to choose the difficulty level of the quiz.
 •	Selects a random country using the REST countries API.
 •	Retrieves the top three headlines from the randomly chosen country using the News API. 
@@ -11,13 +12,13 @@ The World Travel News Quiz is an interactive Python-based quiz game that immerse
 •	Provides appropriate badges based on the user's final score.
 •	Offers a link to share the game experience on Twitter.
 
-###******Installations**
+**Installations**
 •	Git bash
 •	Requests: For making API requests
 •	NewsApi-python: For News API integration
 •	Blessed: For optional text-based UI enhancements
 
-###******Coding Steps**
+**Coding Steps**
 1.	Imports: Import necessary libraries. Ln 8:13
 2.	API Integration: Use API keys to connect with the required APIs.   Ln 16
 3.	User Interactions: Define user interactions using print statements and terminal functions.  Ln 20:22
@@ -29,7 +30,7 @@ The World Travel News Quiz is an interactive Python-based quiz game that immerse
 9.	Score Calculation: Evaluate the user's score based on their answers. Ln 70:79
 10.	Twitter Sharing Link: Provide a link to share the score on Twitter. Ln 100
 
-###**Contributors**
+**Contributors**
 •	Imports: Edith Rosasi and Sandra Abali
 •	User Interactions: Lilian Nyabicha
 •	Difficulty Level Selection: Amarachi Njoku
@@ -40,7 +41,7 @@ The World Travel News Quiz is an interactive Python-based quiz game that immerse
 •	Score Calculation: Lilian Nyabicha and Monsurat Adepoju
 •	Twitter Sharing Link: Amarachi Njoku
 
-###**Usage**
+**Usage**
 •	Run the script and follow on-screen instructions.
 •	Choose the quiz difficulty level ('easy', 'medium', 'hard').
 •	View the top three news headlines of the randomly chosen country.
@@ -49,7 +50,7 @@ The World Travel News Quiz is an interactive Python-based quiz game that immerse
 •	Earn badges based on your final score.
 •	Share your score on Twitter using the provided link.
 
-###**Support**
+**Support**
 Contributions to enhance the quiz game or add new features are welcome! To contribute:
 1.	Fork the repository.
 2.	Create a new branch (git checkout -b feature/enhancement).
@@ -57,10 +58,9 @@ Contributions to enhance the quiz game or add new features are welcome! To contr
 4.	Push to the branch (git push origin feature/enhancement).
 5.	Create a new Pull Request.
 
-###**Credits**
+**Credits**
 •	Restcountries API
 •	News API
 
-###**License**
+**License**
 This project is licensed under the Women Techsters Fellowship 2023/2024/subgroup 10.
-
