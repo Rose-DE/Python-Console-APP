@@ -3,6 +3,7 @@
 #pip install newsapi-python #for News API
 #pip install blessed --for optional text based ui elements
 # used if and else statements alongside dictionaries to define the game
+
 # import the necessary libraries
 import requests
 from newsapi import NewsApiClient
@@ -87,6 +88,7 @@ for question in questions:
 # Display the final score
 print(f"Your final score: {score}/{len(questions)}")
 
+#final message to the user
 if score == 3:
    print("Congratulations, you've earned the 'Travel Expert' badge!")
 elif score == 0:
@@ -94,6 +96,7 @@ elif score == 0:
 else:
     print("Congratulations, you've earned the 'Travel' badge!")
 
+#link to share the game on socials
 webbrowser.open("https://twitter.com/intent/tweet?text=I just scored " + str(score) + " on the World Travel News Quiz! #wtf #group10 #travelquiz")
 
 
