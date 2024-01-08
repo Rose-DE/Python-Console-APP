@@ -4,19 +4,28 @@
 The World Travel News Quiz is an interactive Python-based quiz game that immerses users in exploring different countries through trivia and news headlines. This engaging game utilizes REST APIs to fetch random country data from Restcountries API. It displays the top three news headlines using the News API and  presents three questions related to the randomly chosen country and. Users answer the questions and receive scores based on their answers.
 
 **Features**
-•	Allows users to choose the difficulty level of the quiz.
-•	Selects a random country using the REST countries API.
-•	Retrieves the top three headlines from the randomly chosen country using the News API. 
-•	Asks three questions related to the country (capital, currency, continent).
-•	Scores users based on the correctness of their answers.
-•	Provides appropriate badges based on the user's final score.
-•	Offers a link to share the game experience on Twitter.
+Allows users to choose the difficulty level of the quiz.
+
+Selects a random country using the REST countries API.
+
+Retrieves the top three headlines from the randomly chosen country using the News API. 
+
+Asks three questions related to the country (capital, currency, continent).
+
+Scores users based on the correctness of their answers.
+
+Provides appropriate badges based on the user's final score.
+
+Offers a link to share the game experience on Twitter.
 
 **Installations**
-•	Git bash
-•	Requests: For making API requests
-•	NewsApi-python: For News API integration
-•	Blessed: For optional text-based UI enhancements
+Git bash
+
+Requests: For making API requests
+
+NewsApi-python: For News API integration
+
+Blessed: For optional text-based UI enhancements
 
 **Coding Steps**
 1.	Imports: Import necessary libraries. Ln 8:13
