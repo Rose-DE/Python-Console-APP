@@ -8,3 +8,12 @@ The user then interacts with the program by answering questions about the random
 At the end of the questions the user gets their score.
 The user will also get a final message and a link to share the game to their twitter account
 
+Group members
+Amarachi Njoku
+Edith Rosasi
+Lilian Nyabicha
+Monsurat Adepoju
+Monsunmola Fasasi
+Praise Ajogbar
+Sandra Abali
+Rose Wamaitha
