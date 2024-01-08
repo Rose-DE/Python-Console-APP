@@ -2,7 +2,7 @@
 #pip install requests #for making API requests
 #pip install newsapi-python #for News API
 #pip install blessed --for optional text based ui elements
-
+# used if and else statements alongside dictionaries to define the game
 # import the necessary libraries
 import requests
 from newsapi import NewsApiClient
