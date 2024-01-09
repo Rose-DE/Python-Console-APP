@@ -41,6 +41,7 @@ Ensure you have the following installed:
 12. **Twitter Sharing Link**: Provide a link to share the score on Twitter. (Lines 121-124)
 
 ## Contributors
+![contributors](https://github.com/Rose-DE/WorldTravelQuiz-game/assets/153556310/407a1e2f-efbc-458f-9b6b-da93c08aec0a)
 
 - **Imports**: Edith Rosasi and Sandra Abali
 - **User Interactions**: Lilian Nyabicha
