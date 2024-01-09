@@ -98,7 +98,7 @@ elif score == 0:
 else:
     print("Congratulations, you've earned the 'Travel' badge!")
 
-# delay final score output by 3 seconds before opening socialmedia
+# delay final score output by 3 seconds
 time.sleep(3)
 
 #link to share the game on socials
