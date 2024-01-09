@@ -63,7 +63,7 @@ Ensure you have the following installed:
 7. Share your score on Twitter using the provided link.
 
 ## Support
-
+![support](https://github.com/Rose-DE/WorldTravelQuiz-game/assets/153556310/a47dbfee-3cae-403e-b5fd-c1767429137b)
 Contributions to enhance the quiz game or add new features are welcome! To contribute:
 
 1. Fork the repository.
