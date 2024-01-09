@@ -9,6 +9,8 @@ import requests
 from newsapi import NewsApiClient
 from blessed import Terminal
 import random
+import time
+import urllib.parse
 import webbrowser
 from pprint import pprint as pp
 
@@ -96,8 +98,15 @@ elif score == 0:
 else:
     print("Congratulations, you've earned the 'Travel' badge!")
 
+# delay final score output by 3 seconds before opening socialmedia
+time.sleep(3)
+
 #link to share the game on socials
-webbrowser.open("https://twitter.com/intent/tweet?text=I just scored " + str(score) + " on the World Travel News Quiz! #wtf #group10 #travelquiz")
+tweet_text = "I just scored " + str(score) + " on the World Travel News Quiz! #wtf #group10 #travelquiz"
+encoded_text = urllib.parse.quote(tweet_text)
+url = f"https://twitter.com/intent/tweet?text={encoded_text}"
+webbrowser.open(url)
+
 
 
 
