@@ -30,14 +30,14 @@ Ensure you have the following installed:
 2. **API Integration**: Use API keys to connect with the required APIs. (Line 18)
 3. **User Interactions**: Define user interactions using print statements and terminal functions. (Lines 22-24)
 4. **Difficulty Level Selection**: Allow users to choose the quiz difficulty level using the input function. (Line 28-44)
-5. **REST API Calls**: Fetch a random country's data and select a country using REST APIs. (Lines 31-45)
-6. **API Integration**: Combine data from REST and News APIs. (Line 49)
-7. **Top Headlines Display**: Show the top three headlines for the chosen country. (Lines 52-59)
-8. **Question Generation**: Create three questions using a dictionary. (Lines 61-68)
-9. **Score Calculation**: Evaluate the user's score based on their answers. (Lines 72-91)
-10. **Final Message to the User**: Provides appropriate badges based on the user's final score. (Lines 94-99)
-11. **Time Delay**: Delay final score output by 3 seconds before opening socialmedia. (Line 102)
-12. **Twitter Sharing Link**: Provide a link to share the score on Twitter. (Lines 105-108)
+5. **REST API Calls**: Fetch a random country's data and select a country using REST APIs. (Lines 47-51)
+6. **API Integration**: Combine data from REST and News APIs. (Line 65)
+7. **Top Headlines Display**: Show the top three headlines for the chosen country. (Lines 68-75)
+8. **Question Generation**: Create three questions using a dictionary. (Lines 92-105)
+9. **Score Calculation**: Evaluate the user's score based on their answers. (Lines 107)
+10. **Final Message to the User**: Provides appropriate badges based on the user's final score. (Lines 110-115)
+11. **Time Delay**: Delay final score output by 3 seconds before opening socialmedia. (Line 118)
+12. **Twitter Sharing Link**: Provide a link to share the score on Twitter. (Lines 121-124)
 
 ## Contributors
 
