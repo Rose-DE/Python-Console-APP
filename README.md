@@ -1,4 +1,4 @@
-                                # World Travel News Quiz #
+## World Travel News Quiz 
 
 ## Description
 Ready to jet-set your brain? World Travel News Quiz is your passport to adventure!  ✈️ This Python-powered quiz spins the globe, unlocks random countries, displays the hottest gist in the city and challenges you with trivia that's hotter than a beach in Bali!   Think you're a global guru? Prove it and rack up those scores!
