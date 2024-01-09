@@ -80,5 +80,6 @@ Contributions to enhance the quiz game or add new features are welcome! To contr
 - [News API](https://newsapi.org/)
 
 ## License
+<img width="232" alt="licence" src="https://github.com/Rose-DE/WorldTravelQuiz-game/assets/153556310/5be3a292-f3e5-4440-a0a9-88d5aacf8891">
 
 This project is licensed under the Women Techsters Fellowship 2023/2024/subgroup 10.
