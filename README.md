@@ -5,7 +5,6 @@ Ready to jet-set your brain? World Travel News Quiz is your passport to adventur
 
 The World Travel News Quiz is an interactive Python-based quiz game that immerses users in exploring different countries through trivia and news headlines. This engaging game utilizes REST APIs to fetch random country data from Restcountries API. It displays the top three news headlines using the News API and  presents three questions related to the randomly chosen country and. Users answer the questions and receive scores based on their answers.
 
-## Features
 ![depositphotos_634132776-stock-photo-features-word-written-wood-block](https://github.com/Rose-DE/WorldTravelQuiz-game/assets/153556310/cafcc258-9131-4d79-9d54-36dd216ee2c3)
 
 - **Difficulty Levels**: Allows users to choose the difficulty level of the quiz.
