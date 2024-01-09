@@ -29,7 +29,7 @@ Ensure you have the following installed:
 1. **Imports**: Import necessary libraries. (Lines 8-15)
 2. **API Integration**: Use API keys to connect with the required APIs. (Line 18)
 3. **User Interactions**: Define user interactions using print statements and terminal functions. (Lines 22-24)
-4. **Difficulty Level Selection**: Allow users to choose the quiz difficulty level using the input function. (Line 28)
+4. **Difficulty Level Selection**: Allow users to choose the quiz difficulty level using the input function. (Line 28-44)
 5. **REST API Calls**: Fetch a random country's data and select a country using REST APIs. (Lines 31-45)
 6. **API Integration**: Combine data from REST and News APIs. (Line 49)
 7. **Top Headlines Display**: Show the top three headlines for the chosen country. (Lines 52-59)
