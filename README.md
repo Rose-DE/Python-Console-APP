@@ -1,5 +1,5 @@
 ## World Travel News Quiz 
-
+![Image](https://github.com/Rose-DE/WorldTravelQuiz-game/assets/153556310/99ea556e-6139-44f3-965a-3e2868597d89)
 ## Description
 Ready to jet-set your brain? World Travel News Quiz is your passport to adventure!  ✈️ This Python-powered quiz spins the globe, unlocks random countries, displays the hottest gist in the city and challenges you with trivia that's hotter than a beach in Bali!   Think you're a global guru? Prove it and rack up those scores!
 
