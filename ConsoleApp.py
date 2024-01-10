@@ -27,7 +27,7 @@ print(term.center("Explore the world through trivia and news!"))
 # #user chooses their difficulty level
 while True:
     difficulty_level = input(term.center("Choose your difficulty level (easy, medium, hard): ").lower())
-   if difficulty_level.lower() in ['easy', 'medium', 'hard']:
+    if difficulty_level.lower() in ['easy', 'medium', 'hard']:
         break
     else:
         print("Invalid difficulty level. Please choose from 'easy', 'medium', or 'hard'.")
